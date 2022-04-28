@@ -44,7 +44,7 @@ class Services(Plugin):
 
     def __init__(self, context):
         super(Services, self).__init__(context)
-        self.setObjectName('servicess')
+        self.setObjectName('services')
         self._widget = MessagesWidget(message_helpers.SRV_MODE)
         self._widget.setWindowTitle('Service Type Browser')
         self._widget.type_label.setText('Service:')

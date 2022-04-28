@@ -26,9 +26,7 @@ setup(
         'Topic :: Software Development',
     ],
     description=(
-        'A Python GUI plugin for introspecting available ROS message types. ' +
-        'Note that the srvs available through this plugin is the ones that are stored ' +
-        'on your machine, not on the ROS core your rqt instance connects to.'
+        'A Python GUI plugin for introspecting available ROS service types. '
     ),
     license='BSD',
     entry_points={
