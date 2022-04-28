@@ -30,11 +30,11 @@
 # ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 # POSSIBILITY OF SUCH DAMAGE.
 
-from rqt_py_common import message_helpers
-
 from qt_gui.plugin import Plugin
 
 from rqt_msg.messages_widget import MessagesWidget
+
+from rqt_py_common import message_helpers
 
 
 class Services(Plugin):

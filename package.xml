@@ -18,6 +18,9 @@
   <exec_depend>rqt_gui_py</exec_depend>
   <exec_depend>rqt_msg</exec_depend>
 
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_xmllint</test_depend>
+
   <export>
     <architecture_independent/>
     <rqt_gui plugin="${prefix}/plugin.xml"/>

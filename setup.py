@@ -29,6 +29,7 @@ setup(
         'A Python GUI plugin for introspecting available ROS service types. '
     ),
     license='BSD',
+    tests_require=['pytest'],
     entry_points={
         'console_scripts': [
             'rqt_srv = ' + package_name + '.main:main',
